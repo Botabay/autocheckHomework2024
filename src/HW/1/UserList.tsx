@@ -8,10 +8,10 @@ type UserType = {
   name: string;
   age: number;
   address: AddressType
-}[];
+};
 
 type UserListPropsType = {
-  users: UserType; // ПО МОЕМУ ЧЕГО-ТО НЕ ХВАТАЕТ...
+  users: UserType[]; // ПО МОЕМУ ЧЕГО-ТО НЕ ХВАТАЕТ...
 };
 
 export const UserList = (props: UserListPropsType) => {
